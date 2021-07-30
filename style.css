@@ -64,42 +64,6 @@ input[type=checkbox] {
 	width: 40px;
 }
 
-#clipboard .title
-{
-	
-	color: #0984e3;
-	position: absolute;
-	top: 0;
-	left: 70px;
-	background: #fff;
-	border-radius: 6px;
-	width: 150px;
-	padding: 5px 10px;
-	transform: translateY(-15%) translateX(0px);
-	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-	transition: 0.5s;
-	visibility: hidden;
-	opacity: 0; 
-}
-
-#clipboard:hover .title
-{
-	visibility: visible;
-	opacity: 1;
-}
-
-#clipboard .title::before
-{
-	content: '';
-	position: absolute;
-	width: 12px;
-	height: 12px;
-	top: 48%;
-	left: -8px;
-	background: #fff;
-	transform: rotate(45deg) translateY(-30%);
-}
-
 .btn {
 	border: none;
 	color: #fff;
